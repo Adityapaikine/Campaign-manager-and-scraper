@@ -1,0 +1,179 @@
+{
+  "backup": "C:\\Users\\Aditya\\Documents\\ChatGPT\\Lead Manager+ scraper\\TestArtifacts\\before-unified-service-20261026-211030",
+  "schema": 3,
+  "tables": {
+    "activity_history": {
+      "rows": 39,
+      "digest": "71ca90a37b856f7fa65dd1b51e3e7fe9929c55ce2ff864b41d8c0e0d7850ee53"
+    },
+    "ai_evidence": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ai_knowledge": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ai_response_cache": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "ai_runs": {
+      "rows": 2,
+      "digest": "6ac96096e35bf748433bc6a3054276e1fcc6ca8f243c558ea7151669d6a873bc"
+    },
+    "app_settings": {
+      "rows": 46,
+      "digest": "2b81d7daa9f3bf53a3d9ca5d5b90b68667a5ff71de76423e075767d6c30f026d"
+    },
+    "audit_trail": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "campaign_profiles": {
+      "rows": 2,
+      "digest": "f54fe221a0a3b51cc45ba54909615dc892f52854f1e9d2baa816a390e5c2db5f"
+    },
+    "campaign_tracking": {
+      "rows": 1,
+      "digest": "9eec6ca3574e73614a63a42c15df8987de9d1d66c7b8d6954b17332b78e4b593"
+    },
+    "company_cache": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "email_discovery_cache": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "email_pattern_cache": {
+      "rows": 39,
+      "digest": "814eb3863d45b385fd387f5250d29ff85eb83bcafcefbfe9078f410906cc2e5f"
+    },
+    "import_history": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "lead_reference": {
+      "rows": 362,
+      "digest": "9f92960e0f1154e07a836129a54b9518e46a9b588226c9d4a65187eb869bee1f"
+    },
+    "lead_reference_meta": {
+      "rows": 1,
+      "digest": "ef9442df99de09ae5b10493fd678aec43fec9c418484aa9a86ec385e54b987d6"
+    },
+    "mapping_templates": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "session_checkpoints": {
+      "rows": 783,
+      "digest": "c12936ac26ca94edf4bf181dd06324bb1bc95936c9d8ba3e5b58c2993ea44781"
+    },
+    "team_audit": {
+      "rows": 17,
+      "digest": "1477bc3ca67af336f0ad501ccd29921ec507e7f8eb0fecf7923ec3f6a2059220"
+    },
+    "team_batches": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "team_campaign_config": {
+      "rows": 1,
+      "digest": "64815a416fa7c74faf93ec967bc980ce72b805cfb11b9609019bd12b653941be"
+    },
+    "team_campaign_users": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "team_comments": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "team_departments": {
+      "rows": 4,
+      "digest": "582c9bb29e3a43066bd83c7019e468e8dde778df98d41be0794a47f94654bf03"
+    },
+    "team_draft_keys": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "team_history": {
+      "rows": 362,
+      "digest": "ba57691b7f95834d94d7cb3333e04f397cca6949780ccbe954b6d7f864bd80a8"
+    },
+    "team_lead_keys": {
+      "rows": 770,
+      "digest": "03042fd752ff7ae6daec9a5ef835ea3028662e788ff135f7db28709ccec59338"
+    },
+    "team_leads": {
+      "rows": 362,
+      "digest": "e2216c67e12265cf8276df25098ae7cd431097ce29eae9fe6eaadd8badb9262c"
+    },
+    "team_legacy_payloads": {
+      "rows": 2,
+      "digest": "0c07c42722fe1d98262fc9770f39483c22be65fd3dd0201850be9d4b83978a0c"
+    },
+    "team_legacy_sources": {
+      "rows": 2,
+      "digest": "223c90fe5193d03e0b0f16e7aade7cc1d75100c31a94511e363d43238c48e947"
+    },
+    "team_login_attempts": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "team_migrations": {
+      "rows": 3,
+      "digest": "82ed8d653456d121948299364ae6ebe09070a8937379fb375da4d19e682b98c9"
+    },
+    "team_notifications": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "team_permissions": {
+      "rows": 4,
+      "digest": "f14733c060f9ab3f14527fa8cd60f87d44e0fb18f79b9637cfaa0c5e678155cb"
+    },
+    "team_preferences": {
+      "rows": 6,
+      "digest": "50e46d42599d02bff173ceaa80e42f439e2f65ef21d41e47034decefa01500ac"
+    },
+    "team_reasons": {
+      "rows": 12,
+      "digest": "62a3f56cea8537adc45033def0088c9d915fcd523d329d3d5245e72bbb5d80cc"
+    },
+    "team_routes": {
+      "rows": 2,
+      "digest": "db3337429f3f26e9ed10a391ecc94081ce0c7aec343a2249cb04d81a1a0a2817"
+    },
+    "team_sessions": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "team_sheet_leads": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "team_sheets": {
+      "rows": 1,
+      "digest": "55ab3769da4eaf9a0f6d53cedb6429fa19094db556383800e92b0043ccde87ec"
+    },
+    "team_transfers": {
+      "rows": 0,
+      "digest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "team_transitions": {
+      "rows": 46,
+      "digest": "b6cb22bc0ea2f8e27b9726c16995299bf1b7a0ceabbfd09c1dabe02a9e3c47fa"
+    },
+    "team_users": {
+      "rows": 1,
+      "digest": "61eddaa0c4e567bb3de414b20125d5429c4943ae0599da92c4abde5b02c94cf0"
+    }
+  },
+  "workspaces": {
+    "Data\\LeadManager\\workspaces\\campaign-a665a45920422f9d417e\\worksheet.json.gz": "b88d85a037fca62b9fe4e834296ad8250513254f7ba9872ee7b4a3d82cb3fbbc",
+    "Data\\LeadManager\\workspaces\\general\\worksheet.json.gz": "50e8e0f63c7a323f759c9bb8d1646b3ba1b4a4279fd78a47845c88bfaae90700",
+    "Data\\LocalResearch\\LeadManager\\workspaces\\general\\worksheet.json.gz": "4329381f3ab9d4564a9600e8ddad06b2a4b7916c8496567e956ec64770e42b71"
+  }
+}

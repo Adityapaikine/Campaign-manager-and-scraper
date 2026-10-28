@@ -1,0 +1,29 @@
+{
+  "elapsed_seconds": 0.058,
+  "counts": {
+    "local_evidence_calls": 1,
+    "local_rows_calls": 1,
+    "unique_domains_searched": 1,
+    "company_lookups_reused": 1,
+    "worker_limit": 1,
+    "requests": 3,
+    "company_website_calls": 1,
+    "public_discovery_calls": 1,
+    "search_queries": 0,
+    "save_completed_rows_calls": 2,
+    "completed_rows": 2,
+    "emails_added": 1,
+    "blank_rows": 1
+  },
+  "stage_seconds": {
+    "local_evidence": 0.0,
+    "local_rows": 0.0,
+    "request_wait": 0.0,
+    "company_website": 0.031,
+    "public_discovery": 0.032,
+    "save_completed_rows": 0.017
+  },
+  "cancelled": false,
+  "total_rows": 2,
+  "unfinished_rows": 0
+}

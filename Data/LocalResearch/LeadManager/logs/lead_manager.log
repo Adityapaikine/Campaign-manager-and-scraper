@@ -1,0 +1,2 @@
+2026-10-25 19:05:53,649 | INFO | Checkpoint saved | file=session_2026-10-25T133553_0000_d8aa9c53.json.gz | records=0 | clean=True | reason=clean-shutdown
+2026-10-25 19:13:03,303 | INFO | Checkpoint saved | file=session_2026-10-25T134303_0000_5d365bb2.json.gz | records=0 | clean=True | reason=clean-shutdown

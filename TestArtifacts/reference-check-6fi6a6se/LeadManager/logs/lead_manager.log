@@ -1,0 +1,10 @@
+2026-10-21 13:10:31,578 | INFO | Checkpoint saved | file=session_2026-10-21T074031_0000_a6228a3f.json.gz | records=200 | clean=False | reason=lead-import
+2026-10-21 13:10:31,695 | INFO | Checkpoint saved | file=session_2026-10-21T074031_0000_a6228a3f.json.gz | records=200 | clean=True | reason=clean-shutdown
+2026-10-21 13:10:34,421 | INFO | Checkpoint saved | file=session_2026-10-21T074034_0000_a6e9697f.json.gz | records=200 | clean=False | reason=lead-import
+2026-10-21 13:10:34,517 | INFO | Checkpoint saved | file=session_2026-10-21T074034_0000_a6e9697f.json.gz | records=200 | clean=True | reason=clean-shutdown
+2026-10-21 13:10:38,674 | INFO | Checkpoint saved | file=session_2026-10-21T074038_0000_cbf97d98.json.gz | records=363 | clean=False | reason=lead-import
+2026-10-21 13:10:38,827 | INFO | Checkpoint saved | file=session_2026-10-21T074038_0000_cbf97d98.json.gz | records=363 | clean=True | reason=clean-shutdown
+2026-10-21 13:10:44,045 | INFO | Checkpoint saved | file=session_2026-10-21T074044_0000_71a40f7a.json.gz | records=8 | clean=False | reason=lead-import
+2026-10-21 13:10:44,088 | INFO | Checkpoint saved | file=session_2026-10-21T074044_0000_71a40f7a.json.gz | records=8 | clean=True | reason=clean-shutdown
+2026-10-21 13:10:51,609 | INFO | Checkpoint saved | file=session_2026-10-21T074051_0000_f06921d1.json.gz | records=2 | clean=False | reason=email-complete
+2026-10-21 13:10:51,662 | INFO | Checkpoint saved | file=session_2026-10-21T074051_0000_f06921d1.json.gz | records=2 | clean=True | reason=clean-shutdown

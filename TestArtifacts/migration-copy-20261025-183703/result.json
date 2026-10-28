@@ -1,0 +1,18 @@
+{
+  "first": {
+    "sources": 2,
+    "leads": 362,
+    "skipped_sources": 0,
+    "duplicate_rows": 1
+  },
+  "repeat": {
+    "sources": 0,
+    "leads": 0,
+    "skipped_sources": 2,
+    "duplicate_rows": 0
+  },
+  "legacy_table_counts_preserved": true,
+  "integrity": "ok",
+  "foreign_keys": "ok",
+  "unknown_owners_remain_unassigned": true
+}

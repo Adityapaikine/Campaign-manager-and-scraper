@@ -1,0 +1,13 @@
+{
+  "python": "3.14.8",
+  "python_home": "C:\\Users\\Aditya\\Documents\\ChatGPT\\Lead Manager+ scraper\\.venv",
+  "base_python_home": "C:\\Users\\Aditya\\AppData\\Local\\Python\\pythoncore-3.14-64",
+  "runtime_is_local": false,
+  "environment_is_local": true,
+  "spreadsheet": "passed",
+  "qt": "passed",
+  "dependencies": "passed",
+  "app_pages": "passed",
+  "qwen_assets": false
+}
+Lead Workspace is ready on this computer.

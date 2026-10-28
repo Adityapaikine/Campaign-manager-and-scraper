@@ -1,0 +1,40 @@
+2026-10-21 12:59:15,972 | INFO | Checkpoint saved | file=session_2026-10-21T072915_0000_c526dd7a.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 12:59:16,229 | INFO | Checkpoint saved | file=session_2026-10-21T072916_0000_0a0cf08d.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 12:59:16,449 | INFO | Checkpoint saved | file=session_2026-10-21T072916_0000_fb8497e6.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 12:59:16,682 | INFO | Checkpoint saved | file=session_2026-10-21T072916_0000_b689d52a.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 12:59:16,916 | INFO | Checkpoint saved | file=session_2026-10-21T072916_0000_01e94594.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 12:59:17,264 | INFO | Checkpoint saved | file=session_2026-10-21T072917_0000_637b95a4.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 12:59:17,491 | INFO | Checkpoint saved | file=session_2026-10-21T072917_0000_cf2bc8ce.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 12:59:17,632 | INFO | Checkpoint saved | file=session_2026-10-21T072917_0000_cf2bc8ce.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 12:59:17,800 | INFO | Checkpoint saved | file=session_2026-10-21T072917_0000_46f7e253.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 12:59:18,145 | ERROR | Unable to restore saved tal list
+Traceback (most recent call last):
+  File "C:\Users\Aditya.paikine\Documents\ChatGPT\Lead_Workspace_Combined\Portable\Lead Workspace\app\core\reference_list_store.py", line 54, in load
+    payload = json.loads(path.read_text(encoding="utf-8"))
+  File "C:\Users\Aditya.paikine\Documents\ChatGPT\Lead_Workspace_Combined\Portable\Lead Workspace\runtime\python\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\Aditya.paikine\Documents\ChatGPT\Lead_Workspace_Combined\Portable\Lead Workspace\runtime\python\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aditya.paikine\Documents\ChatGPT\Lead_Workspace_Combined\Portable\Lead Workspace\runtime\python\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Aditya.paikine\Documents\ChatGPT\Lead_Workspace_Combined\Portable\Lead Workspace\app\ui_qt\controller.py", line 247, in _restore_references
+    data = self.reference_store.load(kind)
+  File "C:\Users\Aditya.paikine\Documents\ChatGPT\Lead_Workspace_Combined\Portable\Lead Workspace\app\core\reference_list_store.py", line 74, in load
+    raise ValueError(f"Saved {kind.upper()} list could not be loaded. Upload that list again before validating.") from exc
+ValueError: Saved TAL list could not be loaded. Upload that list again before validating.
+2026-10-21 12:59:18,218 | INFO | Checkpoint saved | file=session_2026-10-21T072918_0000_38166f4e.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 12:59:18,385 | INFO | Checkpoint saved | file=session_2026-10-21T072918_0000_6c6240f2.json.gz | records=2 | clean=False | reason=validation-complete
+2026-10-21 12:59:19,303 | INFO | Checkpoint saved | file=session_2026-10-21T072919_0000_d2a142e7.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 12:59:19,460 | INFO | Checkpoint saved | file=session_2026-10-21T072919_0000_b06461af.json.gz | records=60 | clean=False | reason=validation-cancelled
+2026-10-21 12:59:19,817 | INFO | Checkpoint saved | file=session_2026-10-21T072919_0000_b20f1dc3.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 12:59:19,875 | INFO | Checkpoint saved | file=session_2026-10-21T072919_0000_b20f1dc3.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 12:59:20,691 | INFO | Checkpoint saved | file=session_2026-10-21T072920_0000_9d1a2dcc.json.gz | records=0 | clean=True | reason=clean-shutdown
+2026-10-21 12:59:22,787 | INFO | Checkpoint saved | file=session_2026-10-21T072922_0000_9266a56a.json.gz | records=2 | clean=False | reason=validation-complete
+2026-10-21 12:59:22,992 | INFO | Checkpoint saved | file=session_2026-10-21T072922_0000_9266a56a.json.gz | records=2 | clean=True | reason=clean-shutdown

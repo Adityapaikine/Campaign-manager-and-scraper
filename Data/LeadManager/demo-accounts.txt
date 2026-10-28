@@ -1,0 +1,14 @@
+DEMO WORKFLOW SIGN-IN SHEET
+Server: http://127.0.0.1:8765
+Campaign: DEMO-FLOW
+Synthetic training accounts. These accounts are assigned only to DEMO-FLOW.
+Open Start Lead Workspace.vbs for each sign-in. Keep this sheet private.
+Disable these accounts in Administration > Users after training.
+
+Username	Password	Role	Department
+demo.ops.lead	8ABNNy4p6TeIOaLiLvu_	Team Lead	operations
+demo.ops.employee	qHsNOCyUdtLGYIh2CfS9	Employee	operations
+demo.quality.lead	hzztyoaGjG6AAe89JO88	Team Lead	quality
+demo.quality.employee	2El02KOwphoYAdNG_zlw	Employee	quality
+demo.delivery.lead	fdtgIHEWHK6nFkjMc-3Q	Team Lead	delivery
+demo.delivery.employee	DOs-Y-aWWw2M8GqNxdGp	Employee	delivery

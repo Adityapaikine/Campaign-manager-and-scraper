@@ -1,0 +1,11 @@
+{
+  "leads": 362,
+  "unknown_owners": 362,
+  "users": 0,
+  "schema": 3,
+  "integrity": "ok",
+  "foreign_keys": "ok",
+  "legacy_counts_preserved": true,
+  "original_workspace_files_unchanged": true,
+  "backup": "C:\\Users\\Aditya\\Documents\\ChatGPT\\Lead Manager+ scraper\\Data\\LeadManager\\cache\\before-adoption-20261025-184451.sqlite3"
+}

@@ -1,0 +1,37 @@
+2026-10-21 13:05:20,363 | INFO | Checkpoint saved | file=session_2026-10-21T073520_0000_f698f853.json.gz | records=200 | clean=False | reason=lead-import
+2026-10-21 13:05:20,456 | INFO | Checkpoint saved | file=session_2026-10-21T073520_0000_f698f853.json.gz | records=200 | clean=True | reason=clean-shutdown
+2026-10-21 13:05:23,107 | INFO | Checkpoint saved | file=session_2026-10-21T073523_0000_f08e29a9.json.gz | records=200 | clean=False | reason=lead-import
+2026-10-21 13:05:23,195 | INFO | Checkpoint saved | file=session_2026-10-21T073523_0000_f08e29a9.json.gz | records=200 | clean=True | reason=clean-shutdown
+2026-10-21 13:05:27,233 | INFO | Checkpoint saved | file=session_2026-10-21T073527_0000_047d599d.json.gz | records=363 | clean=False | reason=lead-import
+2026-10-21 13:05:27,376 | INFO | Checkpoint saved | file=session_2026-10-21T073527_0000_047d599d.json.gz | records=363 | clean=True | reason=clean-shutdown
+2026-10-21 13:05:32,293 | INFO | Checkpoint saved | file=session_2026-10-21T073532_0000_855299a0.json.gz | records=8 | clean=False | reason=lead-import
+2026-10-21 13:05:32,344 | INFO | Checkpoint saved | file=session_2026-10-21T073532_0000_855299a0.json.gz | records=8 | clean=True | reason=clean-shutdown
+2026-10-21 13:05:34,241 | ERROR | Could not record checkpoint history
+Traceback (most recent call last):
+  File "C:\Users\Aditya.paikine\Documents\ChatGPT\Lead_Workspace_Combined\Portable\Lead Workspace\app\core\checkpoint_service.py", line 109, in _record_db
+    conn.execute(
+    ~~~~~~~~~~~~^
+        "INSERT INTO session_checkpoints(session_name, checkpoint_file, processed_count) VALUES (?, ?, ?)",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (reason, str(path), int(count)),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+sqlite3.OperationalError: no such table: session_checkpoints
+2026-10-21 13:05:34,242 | INFO | Checkpoint saved | file=session_2026-10-21T073534_0000_54c51f23.json.gz | records=1 | clean=False | reason=regression
+2026-10-21 13:05:34,464 | ERROR | Could not record checkpoint history
+Traceback (most recent call last):
+  File "C:\Users\Aditya.paikine\Documents\ChatGPT\Lead_Workspace_Combined\Portable\Lead Workspace\app\core\checkpoint_service.py", line 109, in _record_db
+    conn.execute(
+    ~~~~~~~~~~~~^
+        "INSERT INTO session_checkpoints(session_name, checkpoint_file, processed_count) VALUES (?, ?, ?)",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (reason, str(path), int(count)),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+sqlite3.OperationalError: no such table: session_checkpoints
+2026-10-21 13:05:34,465 | INFO | Checkpoint saved | file=session_2026-10-21T073534_0000_5e2e98e8.json.gz | records=0 | clean=False | reason=regression
+2026-10-21 13:05:40,843 | INFO | Checkpoint saved | file=session_2026-10-21T073540_0000_c63bcb64.json.gz | records=0 | clean=True | reason=clean-shutdown
+2026-10-21 13:05:48,683 | INFO | Checkpoint saved | file=session_2026-10-21T073548_0000_4ecdf151.json.gz | records=2 | clean=False | reason=email-complete
+2026-10-21 13:05:48,735 | INFO | Checkpoint saved | file=session_2026-10-21T073548_0000_4ecdf151.json.gz | records=2 | clean=True | reason=clean-shutdown

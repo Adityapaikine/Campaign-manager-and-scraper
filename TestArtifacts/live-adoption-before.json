@@ -1,0 +1,26 @@
+{
+  "legacy_counts": {
+    "app_settings": 46,
+    "import_history": 0,
+    "email_pattern_cache": 39,
+    "email_discovery_cache": 0,
+    "company_cache": 0,
+    "mapping_templates": 0,
+    "session_checkpoints": 783,
+    "audit_trail": 0,
+    "campaign_profiles": 1,
+    "activity_history": 39,
+    "ai_response_cache": 0,
+    "ai_knowledge": 0,
+    "ai_evidence": 0,
+    "ai_runs": 2,
+    "lead_reference": 362,
+    "lead_reference_meta": 1,
+    "campaign_tracking": 1
+  },
+  "workspace_hashes": {
+    "workspaces\\campaign-a665a45920422f9d417e\\worksheet.json.gz": "b88d85a037fca62b9fe4e834296ad8250513254f7ba9872ee7b4a3d82cb3fbbc",
+    "workspaces\\general\\worksheet.json.gz": "50e8e0f63c7a323f759c9bb8d1646b3ba1b4a4279fd78a47845c88bfaae90700",
+    "workspaces\\campaign-a665a45920422f9d417e\\reference_lists\\tal.json": "a4ad69eb6adf62adb139afa691ae6c64a0ba9d53969c10cac3d2499f1d2b0cbf"
+  }
+}

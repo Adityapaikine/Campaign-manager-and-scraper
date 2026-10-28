@@ -1,0 +1,2 @@
+2026-10-24 14:11:04,118 | INFO | Checkpoint saved | file=session_2026-10-24T084104_0000_1f0b34ff.json.gz | records=3 | clean=False | reason=formula-test
+2026-10-24 14:11:07,404 | INFO | Checkpoint saved | file=session_2026-10-24T084107_0000_21362d53.json.gz | records=24 | clean=True | reason=clean-shutdown

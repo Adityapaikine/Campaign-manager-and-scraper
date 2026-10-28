@@ -1,0 +1,17 @@
+0.00.003.807 I cmn  common_param: common_params_print_info: verbosity = 3 (adjust with the `-lv N` CLI arg)
+0.00.004.394 W srv  llama_server: -----------------
+0.00.004.401 W srv  llama_server: CORS is set to allow all origins ('*') and no API key is set
+0.00.004.401 W srv  llama_server: this can be a security risk (cross-origin attacks)
+0.00.004.401 W srv  llama_server: more info: https://github.com/ggml-org/llama.cpp/pull/25655
+0.00.004.402 W srv  llama_server: -----------------
+0.00.014.143 W srv  llama_server: sandbox: not supported on this OS
+0.00.016.213 I srv    load_model: loading model '/C/Users/Aditya.paikine/Documents/ChatGPT/Lead_Workspace_Combined/Portable/Lead Workspace/runtime/qwen/Qwen3-4B-Instruct-2507-Q8_0.gguf'
+0.01.229.014 W load: control-looking token: 128247 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.04.183.898 W warning: munmap failed: Operation not supported
+0.31.010.509 I srv    load_model: initializing, n_slots = 4, n_ctx_slot = 53504, kv_unified = 'true'
+0.31.061.734 I srv  llama_server: model loaded
+0.31.061.980 I srv  llama_server: listening on http://127.0.0.1:8080
+3.16.098.701 I slot get_availabl: id  3 | task -1 | selected slot by LRU, t_last = -1
+3.16.102.739 I slot launch_slot_: id  3 | task 0 | processing task, is_child = 0
+4.46.692.541 W srv          stop: cancel task, id_task = 0
+4.46.841.886 I slot      release: id  3 | task 0 | stop processing: n_tokens = 862, truncated = 0

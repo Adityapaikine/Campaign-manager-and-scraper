@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-10-25T13:19:58.249944+00:00",
+  "url": "http://127.0.0.1:8765",
+  "health": {
+    "status": "ok",
+    "service": "Lead Workspace",
+    "schema": 3
+  },
+  "unauthenticated_request": 401,
+  "invalid_token_request": 401,
+  "stop_restart_verified": true,
+  "remote_access_configured": false,
+  "initial_account_provisioned": false
+}

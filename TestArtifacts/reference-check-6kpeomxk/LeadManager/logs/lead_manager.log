@@ -1,0 +1,9 @@
+2026-10-21 13:10:06,611 | INFO | Checkpoint saved | file=session_2026-10-21T074006_0000_bd11d5ab.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:10:07,338 | INFO | Checkpoint saved | file=session_2026-10-21T074007_0000_d30f7507.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:10:07,624 | INFO | Checkpoint saved | file=session_2026-10-21T074007_0000_08e1d902.json.gz | records=3 | clean=False | reason=validation-complete
+2026-10-21 13:10:07,652 | INFO | Checkpoint saved | file=session_2026-10-21T074007_0000_08e1d902.json.gz | records=3 | clean=False | reason=validation-complete
+2026-10-21 13:10:07,677 | INFO | Checkpoint saved | file=session_2026-10-21T074007_0000_08e1d902.json.gz | records=3 | clean=False | reason=validation-complete
+2026-10-21 13:10:07,827 | INFO | Checkpoint saved | file=session_2026-10-21T074007_0000_96f243ee.json.gz | records=3 | clean=False | reason=validation-complete
+2026-10-21 13:10:07,991 | INFO | Checkpoint saved | file=session_2026-10-21T074007_0000_813ed68a.json.gz | records=3 | clean=False | reason=validation-complete
+2026-10-21 13:10:09,076 | INFO | Checkpoint saved | file=session_2026-10-21T074009_0000_97aaa086.json.gz | records=18 | clean=False | reason=validation-complete
+2026-10-21 13:10:11,904 | INFO | Checkpoint saved | file=session_2026-10-21T074011_0000_97aaa086.json.gz | records=18 | clean=True | reason=clean-shutdown

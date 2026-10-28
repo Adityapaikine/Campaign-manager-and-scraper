@@ -1,0 +1,11 @@
+{
+  "engine": "PostgreSQL 18",
+  "isolated_loopback_cluster": true,
+  "discovery": "passed",
+  "mapped_headers_with_spaces": "passed",
+  "prospect_and_company_matching": "passed",
+  "read_only_transaction": "passed",
+  "source_rows_unchanged": true,
+  "schema_change_requires_remapping": "passed",
+  "cluster_stopped": true
+}

@@ -1,0 +1,14 @@
+{
+  "modified_application": "C:\\Users\\Aditya.paikine\\Documents\\ChatGPT\\Lead_Workspace_Combined\\Portable\\Lead Workspace",
+  "automated_tests_passed": 44,
+  "existing_qt_deprecation_warnings": 29,
+  "portable_startup_check": "passed",
+  "saved_list_restart_and_relocation": "passed",
+  "source_files_no_longer_required": "passed",
+  "reference_upload_mapping_and_validate_button": "passed",
+  "spreadsheet_export_and_checkpoint": "passed",
+  "replacement_failed_upload_and_cancel": "passed",
+  "suppression_precedence": "passed",
+  "ui_preview": "saved_reference_validation.png",
+  "source_files_in_manifest": 144
+}

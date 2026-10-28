@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:8765",
+  "health": {
+    "status": "ok",
+    "service": "Lead Workspace",
+    "schema": 4
+  },
+  "unauthenticated_modules_status": 401,
+  "invalid_session_leads_status": 401
+}

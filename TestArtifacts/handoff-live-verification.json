@@ -1,0 +1,84 @@
+{
+  "preexisting_rows_preserved": true,
+  "checked_tables": 43,
+  "changed_tables": [],
+  "integrity": "ok",
+  "foreign_key_errors": 0,
+  "counts": {
+    "team_users": 7,
+    "team_leads": 372,
+    "team_sheets": 2,
+    "campaign_profiles": 3
+  },
+  "demo_stages": [
+    {
+      "department": "delivery",
+      "stage": "Delivered",
+      "count": 1
+    },
+    {
+      "department": "delivery",
+      "stage": "Transferred to Delivery",
+      "count": 2
+    },
+    {
+      "department": "operations",
+      "stage": "Approved",
+      "count": 3
+    },
+    {
+      "department": "operations",
+      "stage": "Pending Team Lead Review",
+      "count": 2
+    },
+    {
+      "department": "quality",
+      "stage": "Quality Qualified",
+      "count": 2
+    }
+  ],
+  "live_accounts": [
+    {
+      "username": "demo.ops.lead",
+      "login": true,
+      "campaign_scope": "DEMO-FLOW only",
+      "handoff_preview": true,
+      "rows_visible": 5
+    },
+    {
+      "username": "demo.ops.employee",
+      "login": true,
+      "campaign_scope": "DEMO-FLOW only",
+      "handoff_preview": false,
+      "rows_visible": 10
+    },
+    {
+      "username": "demo.quality.lead",
+      "login": true,
+      "campaign_scope": "DEMO-FLOW only",
+      "handoff_preview": true,
+      "rows_visible": 2
+    },
+    {
+      "username": "demo.quality.employee",
+      "login": true,
+      "campaign_scope": "DEMO-FLOW only",
+      "handoff_preview": false,
+      "rows_visible": 2
+    },
+    {
+      "username": "demo.delivery.lead",
+      "login": true,
+      "campaign_scope": "DEMO-FLOW only",
+      "handoff_preview": false,
+      "rows_visible": 3
+    },
+    {
+      "username": "demo.delivery.employee",
+      "login": true,
+      "campaign_scope": "DEMO-FLOW only",
+      "handoff_preview": false,
+      "rows_visible": 1
+    }
+  ]
+}

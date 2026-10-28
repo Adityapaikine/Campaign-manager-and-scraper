@@ -1,0 +1,16 @@
+{
+  "schema": 4,
+  "integrity": "ok",
+  "foreign_key_errors": 0,
+  "counts": {
+    "team_users": 1,
+    "team_leads": 362,
+    "team_sheets": 1,
+    "campaign_profiles": 2
+  },
+  "unchanged_existing_tables": true,
+  "checked_tables": 41,
+  "changed_existing_tables": [],
+  "worksheet_files_unchanged": true,
+  "backup": "C:\\Users\\Aditya\\Documents\\ChatGPT\\Lead Manager+ scraper\\TestArtifacts\\before-unified-service-20261026-211030"
+}

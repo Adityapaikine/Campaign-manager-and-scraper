@@ -1,0 +1,49 @@
+2026-10-21 13:02:58,597 | INFO | Checkpoint saved | file=session_2026-10-21T073258_0000_77f253a1.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:02:58,869 | INFO | Checkpoint saved | file=session_2026-10-21T073258_0000_5cee140f.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:02:59,123 | INFO | Checkpoint saved | file=session_2026-10-21T073259_0000_f3302b7d.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:02:59,385 | INFO | Checkpoint saved | file=session_2026-10-21T073259_0000_7f119854.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:02:59,669 | INFO | Checkpoint saved | file=session_2026-10-21T073259_0000_a9502e7b.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:03:00,036 | INFO | Checkpoint saved | file=session_2026-10-21T073300_0000_b89e85e4.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:03:00,302 | INFO | Checkpoint saved | file=session_2026-10-21T073300_0000_c01e1430.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:03:00,446 | INFO | Checkpoint saved | file=session_2026-10-21T073300_0000_c01e1430.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:03:00,642 | INFO | Checkpoint saved | file=session_2026-10-21T073300_0000_8c3a2aef.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:03:01,043 | ERROR | Unable to restore saved tal list
+Traceback (most recent call last):
+  File "C:\Users\Aditya.paikine\Documents\ChatGPT\Lead_Workspace_Combined\Portable\Lead Workspace\app\core\reference_list_store.py", line 54, in load
+    payload = json.loads(path.read_text(encoding="utf-8"))
+  File "C:\Users\Aditya.paikine\Documents\ChatGPT\Lead_Workspace_Combined\Portable\Lead Workspace\runtime\python\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\Aditya.paikine\Documents\ChatGPT\Lead_Workspace_Combined\Portable\Lead Workspace\runtime\python\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Aditya.paikine\Documents\ChatGPT\Lead_Workspace_Combined\Portable\Lead Workspace\runtime\python\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Aditya.paikine\Documents\ChatGPT\Lead_Workspace_Combined\Portable\Lead Workspace\app\ui_qt\controller.py", line 249, in _restore_references
+    data = self.reference_store.load(kind)
+  File "C:\Users\Aditya.paikine\Documents\ChatGPT\Lead_Workspace_Combined\Portable\Lead Workspace\app\core\reference_list_store.py", line 74, in load
+    raise ValueError(f"Saved {kind.upper()} list could not be loaded. Upload that list again before validating.") from exc
+ValueError: Saved TAL list could not be loaded. Upload that list again before validating.
+2026-10-21 13:03:01,090 | INFO | Checkpoint saved | file=session_2026-10-21T073301_0000_f50494f0.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:03:01,268 | INFO | Checkpoint saved | file=session_2026-10-21T073301_0000_f2097561.json.gz | records=2 | clean=False | reason=validation-complete
+2026-10-21 13:03:01,764 | INFO | Checkpoint saved | file=session_2026-10-21T073301_0000_0aefc6c9.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:03:01,960 | INFO | Checkpoint saved | file=session_2026-10-21T073301_0000_58de3634.json.gz | records=60 | clean=False | reason=validation-cancelled
+2026-10-21 13:03:02,419 | INFO | Checkpoint saved | file=session_2026-10-21T073302_0000_2b54ce62.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:03:02,466 | INFO | Checkpoint saved | file=session_2026-10-21T073302_0000_2b54ce62.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:03:03,249 | INFO | Checkpoint saved | file=session_2026-10-21T073303_0000_a2f2e8ce.json.gz | records=0 | clean=True | reason=clean-shutdown
+2026-10-21 13:03:05,421 | INFO | Checkpoint saved | file=session_2026-10-21T073305_0000_b51cd55b.json.gz | records=2 | clean=False | reason=validation-complete
+2026-10-21 13:03:05,633 | INFO | Checkpoint saved | file=session_2026-10-21T073305_0000_b51cd55b.json.gz | records=2 | clean=True | reason=clean-shutdown
+2026-10-21 13:03:06,898 | INFO | Checkpoint saved | file=session_2026-10-21T073306_0000_1bceecdc.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:03:08,018 | INFO | Checkpoint saved | file=session_2026-10-21T073308_0000_8de41048.json.gz | records=1 | clean=False | reason=validation-complete
+2026-10-21 13:03:08,300 | INFO | Checkpoint saved | file=session_2026-10-21T073308_0000_f96527ce.json.gz | records=3 | clean=False | reason=validation-complete
+2026-10-21 13:03:08,324 | INFO | Checkpoint saved | file=session_2026-10-21T073308_0000_f96527ce.json.gz | records=3 | clean=False | reason=validation-complete
+2026-10-21 13:03:08,351 | INFO | Checkpoint saved | file=session_2026-10-21T073308_0000_f96527ce.json.gz | records=3 | clean=False | reason=validation-complete
+2026-10-21 13:03:08,494 | INFO | Checkpoint saved | file=session_2026-10-21T073308_0000_96f40c45.json.gz | records=3 | clean=False | reason=validation-complete
+2026-10-21 13:03:08,636 | INFO | Checkpoint saved | file=session_2026-10-21T073308_0000_81c499fe.json.gz | records=3 | clean=False | reason=validation-complete
+2026-10-21 13:03:12,376 | INFO | Checkpoint saved | file=session_2026-10-21T073312_0000_11c0ab9f.json.gz | records=18 | clean=False | reason=validation-complete
+2026-10-21 13:03:12,663 | INFO | Checkpoint saved | file=session_2026-10-21T073312_0000_11c0ab9f.json.gz | records=18 | clean=True | reason=clean-shutdown

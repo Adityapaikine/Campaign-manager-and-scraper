@@ -1,0 +1,14 @@
+{
+  "shared": {
+    "grid_height": 360,
+    "width": 1366,
+    "height": 768,
+    "collapsed_grid_height": 456
+  },
+  "draft": {
+    "grid_height": 357,
+    "width": 1366,
+    "height": 768,
+    "collapsed_grid_height": 453
+  }
+}

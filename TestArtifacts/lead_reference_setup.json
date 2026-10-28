@@ -1,0 +1,17 @@
+{
+  "database": "C:\\Users\\Aditya\\Documents\\ChatGPT\\Lead Manager+ scraper\\Data\\LeadManager\\cache\\lead_manager.sqlite3",
+  "table": "lead_reference",
+  "backup": "C:\\Users\\Aditya\\Documents\\ChatGPT\\Lead Manager+ scraper\\TestArtifacts\\database-before-lookup-20261023-230156.sqlite3",
+  "saved_workspaces": 2,
+  "source_rows": 362,
+  "reference_rows": 362,
+  "inserted": 362,
+  "columns": 42,
+  "standard_headers_match": true,
+  "all_saved_rows_match": true,
+  "worksheet_files_unchanged": true,
+  "existing_table_counts_unchanged": true,
+  "sqlite_quick_check": "ok",
+  "usable_prospect_keys": 362,
+  "usable_company_keys": 362
+}
